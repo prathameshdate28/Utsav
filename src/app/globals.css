@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Marigold Noir - Light Theme */
+    --background: 45 25% 98%;
+    --foreground: 30 15% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 30 15% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 30 15% 12%;
+    --primary: 38 92% 50%;
+    --primary-foreground: 30 25% 10%;
+    --secondary: 35 30% 92%;
+    --secondary-foreground: 30 20% 18%;
+    --muted: 40 20% 94%;
+    --muted-foreground: 30 10% 45%;
+    --accent: 24 95% 53%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 38 25% 88%;
+    --input: 38 25% 88%;
+    --ring: 38 92% 50%;
+    --radius: 0.625rem;
+  }
+
+  .dark {
+    /* Marigold Noir - Dark Theme */
+    --background: 240 10% 6%;
+    --foreground: 45 20% 96%;
+    --card: 240 8% 9%;
+    --card-foreground: 45 20% 96%;
+    --popover: 240 8% 9%;
+    --popover-foreground: 45 20% 96%;
+    --primary: 38 95% 54%;
+    --primary-foreground: 240 10% 6%;
+    --secondary: 240 6% 16%;
+    --secondary-foreground: 45 20% 90%;
+    --muted: 240 6% 16%;
+    --muted-foreground: 40 10% 65%;
+    --accent: 24 90% 55%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 6% 18%;
+    --input: 240 6% 18%;
+    --ring: 38 95% 54%;
+  }
+}
+
+@theme {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --font-heading: var(--font-heading), serif;
+  --font-sans: var(--font-sans), sans-serif;
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: var(--font-sans), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), Georgia, serif;
+}
