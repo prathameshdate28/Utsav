@@ -14,9 +14,6 @@ export function Footer() {
           listed are demo vendors. Cultural ceremony suggestions reflect practices
           commonly practised; traditions vary by family and community.
         </p>
-        <p className="text-[11px] text-muted-foreground/80">
-          Built for contest & portfolio. Crafted with Next.js, Tailwind & Marigold Noir.
-        </p>
       </div>
     </footer>
   );

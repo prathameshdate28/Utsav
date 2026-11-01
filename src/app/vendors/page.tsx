@@ -1,4 +1,4 @@
-import { PagePlaceholder } from "@/components/page-placeholder";
+import { VendorDirectory } from "./directory";
 
 export const metadata = {
   title: "Demo Vendors — Utsav",
@@ -6,13 +6,5 @@ export const metadata = {
 };
 
 export default function VendorsPage() {
-  return (
-    <PagePlaceholder
-      badge="Demo Vendor Directory"
-      title="Service Providers & Estimates"
-      description="Compare demo caterers, decorators, photographers, and mehendi artists. Price brackets are estimated prices, and all vendor profiles represent demo vendors."
-      actionHref="/ideas"
-      actionLabel="AI Idea Sparks"
-    />
-  );
+  return <VendorDirectory />;
 }

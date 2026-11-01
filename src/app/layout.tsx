@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { fontHeading, fontSans } from "@/lib/fonts";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { SmoothScrollProvider } from "@/components/providers/smooth-scroll-provider";
 import { NavigationHeader } from "@/components/navigation-header";
 import { Footer } from "@/components/footer";
+import { PanicButton } from "@/components/panic-button";
+import { LanguageProvider } from "@/components/providers/language-provider";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -30,11 +33,16 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <SmoothScrollProvider>
-            <NavigationHeader />
-            <main className="flex-1 flex flex-col">{children}</main>
-            <Footer />
-          </SmoothScrollProvider>
+          <LanguageProvider>
+            <SmoothScrollProvider>
+              <Suspense fallback={<div className="h-16 border-b border-border/60 bg-background" aria-hidden="true" />}>
+                <NavigationHeader />
+              </Suspense>
+              <main className="flex-1 flex flex-col">{children}</main>
+              <Footer />
+              <PanicButton />
+            </SmoothScrollProvider>
+          </LanguageProvider>
         </ThemeProvider>
       </body>
     </html>

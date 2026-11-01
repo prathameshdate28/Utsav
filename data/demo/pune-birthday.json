@@ -1,0 +1,1470 @@
+{
+  "eventType": "birthday",
+  "event": {
+    "title": "A joyful birthday celebration",
+    "city": "Pune",
+    "date": "2027-04-15",
+    "guests": 40,
+    "concept": "A 5th birthday for my daughter in Pune, 40 guests, ₹60,000, she loves dinosaurs and butterflies",
+    "accentColor": "#E35D7E"
+  },
+  "budget": {
+    "total": 60000,
+    "baseGuests": 40,
+    "categories": [
+      {
+        "id": "budget-1",
+        "name": "Catering",
+        "amount": 13200,
+        "share": 22,
+        "kind": "per_head",
+        "isEstimate": true,
+        "saveTip": "Request itemized catering quotes and compare the included services.",
+        "hiddenCostWarnings": [
+          "Ask whether taxes, delivery, setup and overtime are included."
+        ]
+      },
+      {
+        "id": "budget-2",
+        "name": "Venue",
+        "amount": 9600,
+        "share": 16,
+        "kind": "fixed",
+        "isEstimate": true,
+        "saveTip": "Request itemized venue quotes and compare the included services.",
+        "hiddenCostWarnings": [
+          "Ask whether taxes, delivery, setup and overtime are included."
+        ]
+      },
+      {
+        "id": "budget-3",
+        "name": "Decor",
+        "amount": 7200,
+        "share": 12,
+        "kind": "semi",
+        "isEstimate": true,
+        "saveTip": "Request itemized decor quotes and compare the included services.",
+        "hiddenCostWarnings": [
+          "Ask whether taxes, delivery, setup and overtime are included."
+        ]
+      },
+      {
+        "id": "budget-4",
+        "name": "Photography",
+        "amount": 6000,
+        "share": 10,
+        "kind": "fixed",
+        "isEstimate": true,
+        "saveTip": "Request itemized photography quotes and compare the included services.",
+        "hiddenCostWarnings": [
+          "Ask whether taxes, delivery, setup and overtime are included."
+        ]
+      },
+      {
+        "id": "budget-5",
+        "name": "Music & sound",
+        "amount": 5400,
+        "share": 9,
+        "kind": "semi",
+        "isEstimate": true,
+        "saveTip": "Request itemized music & sound quotes and compare the included services.",
+        "hiddenCostWarnings": [
+          "Ask whether taxes, delivery, setup and overtime are included."
+        ]
+      },
+      {
+        "id": "budget-6",
+        "name": "Attire & styling",
+        "amount": 4800,
+        "share": 8,
+        "kind": "semi",
+        "isEstimate": true,
+        "saveTip": "Request itemized attire & styling quotes and compare the included services.",
+        "hiddenCostWarnings": [
+          "Ask whether taxes, delivery, setup and overtime are included."
+        ]
+      },
+      {
+        "id": "budget-7",
+        "name": "Invitations",
+        "amount": 3600,
+        "share": 6,
+        "kind": "per_head",
+        "isEstimate": true,
+        "saveTip": "Request itemized invitations quotes and compare the included services.",
+        "hiddenCostWarnings": [
+          "Ask whether taxes, delivery, setup and overtime are included."
+        ]
+      },
+      {
+        "id": "budget-8",
+        "name": "Transport",
+        "amount": 3000,
+        "share": 5,
+        "kind": "semi",
+        "isEstimate": true,
+        "saveTip": "Request itemized transport quotes and compare the included services.",
+        "hiddenCostWarnings": [
+          "Ask whether taxes, delivery, setup and overtime are included."
+        ]
+      },
+      {
+        "id": "budget-9",
+        "name": "Guest comfort",
+        "amount": 3000,
+        "share": 5,
+        "kind": "semi",
+        "isEstimate": true,
+        "saveTip": "Request itemized guest comfort quotes and compare the included services.",
+        "hiddenCostWarnings": [
+          "Ask whether taxes, delivery, setup and overtime are included."
+        ]
+      },
+      {
+        "id": "budget-10",
+        "name": "Contingency",
+        "amount": 4200,
+        "share": 7,
+        "kind": "semi",
+        "isEstimate": true,
+        "saveTip": "Request itemized contingency quotes and compare the included services.",
+        "hiddenCostWarnings": [
+          "Ask whether taxes, delivery, setup and overtime are included."
+        ]
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "id": "task-01",
+      "title": "Confirm your event priorities",
+      "phase": "6 months",
+      "leadTimeDays": 180,
+      "ownerRole": "Event lead",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [],
+      "completed": false
+    },
+    {
+      "id": "task-02",
+      "title": "Set an initial guest-list range",
+      "phase": "6 months",
+      "leadTimeDays": 171,
+      "ownerRole": "Family coordinator",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [],
+      "completed": false
+    },
+    {
+      "id": "task-03",
+      "title": "Shortlist suitable venues",
+      "phase": "6 months",
+      "leadTimeDays": 162,
+      "ownerRole": "Vendor coordinator",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [],
+      "completed": false
+    },
+    {
+      "id": "task-04",
+      "title": "Check date and venue availability",
+      "phase": "6 months",
+      "leadTimeDays": 153,
+      "ownerRole": "Event lead",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [],
+      "completed": false
+    },
+    {
+      "id": "task-05",
+      "title": "Agree the working budget",
+      "phase": "3 months",
+      "leadTimeDays": 144,
+      "ownerRole": "Family coordinator",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [
+        "task-04"
+      ],
+      "completed": false
+    },
+    {
+      "id": "task-06",
+      "title": "Book your venue",
+      "phase": "3 months",
+      "leadTimeDays": 135,
+      "ownerRole": "Vendor coordinator",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [],
+      "completed": false
+    },
+    {
+      "id": "task-07",
+      "title": "Choose your event theme",
+      "phase": "3 months",
+      "leadTimeDays": 126,
+      "ownerRole": "Event lead",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [],
+      "completed": false
+    },
+    {
+      "id": "task-08",
+      "title": "Shortlist catering options",
+      "phase": "3 months",
+      "leadTimeDays": 117,
+      "ownerRole": "Family coordinator",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [],
+      "completed": false
+    },
+    {
+      "id": "task-09",
+      "title": "Confirm the menu and dietary needs",
+      "phase": "1 month",
+      "leadTimeDays": 108,
+      "ownerRole": "Vendor coordinator",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [
+        "task-08"
+      ],
+      "completed": false
+    },
+    {
+      "id": "task-10",
+      "title": "Book photography and music",
+      "phase": "1 month",
+      "leadTimeDays": 99,
+      "ownerRole": "Event lead",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [],
+      "completed": false
+    },
+    {
+      "id": "task-11",
+      "title": "Review the guest list",
+      "phase": "1 month",
+      "leadTimeDays": 90,
+      "ownerRole": "Family coordinator",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [],
+      "completed": false
+    },
+    {
+      "id": "task-12",
+      "title": "Send invitations",
+      "phase": "1 month",
+      "leadTimeDays": 81,
+      "ownerRole": "Vendor coordinator",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [],
+      "completed": false
+    },
+    {
+      "id": "task-13",
+      "title": "Confirm accessibility requirements",
+      "phase": "1 week",
+      "leadTimeDays": 72,
+      "ownerRole": "Event lead",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [
+        "task-12"
+      ],
+      "completed": false
+    },
+    {
+      "id": "task-14",
+      "title": "Plan arrival and transport",
+      "phase": "1 week",
+      "leadTimeDays": 63,
+      "ownerRole": "Family coordinator",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [],
+      "completed": false
+    },
+    {
+      "id": "task-15",
+      "title": "Confirm vendor balances",
+      "phase": "1 week",
+      "leadTimeDays": 54,
+      "ownerRole": "Vendor coordinator",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [],
+      "completed": false
+    },
+    {
+      "id": "task-16",
+      "title": "Share the day-of schedule",
+      "phase": "1 week",
+      "leadTimeDays": 45,
+      "ownerRole": "Event lead",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [],
+      "completed": false
+    },
+    {
+      "id": "task-17",
+      "title": "Pack essentials and printed contacts",
+      "phase": "day-of",
+      "leadTimeDays": 36,
+      "ownerRole": "Family coordinator",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [
+        "task-16"
+      ],
+      "completed": false
+    },
+    {
+      "id": "task-18",
+      "title": "Confirm final guest count",
+      "phase": "day-of",
+      "leadTimeDays": 27,
+      "ownerRole": "Vendor coordinator",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [],
+      "completed": false
+    },
+    {
+      "id": "task-19",
+      "title": "Check weather and backup plan",
+      "phase": "day-of",
+      "leadTimeDays": 18,
+      "ownerRole": "Event lead",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [],
+      "completed": false
+    },
+    {
+      "id": "task-20",
+      "title": "Welcome guests and enjoy",
+      "phase": "day-of",
+      "leadTimeDays": 9,
+      "ownerRole": "Family coordinator",
+      "reason": "Confirming this early leaves time to adjust details without last-minute pressure.",
+      "dependencies": [],
+      "completed": false
+    }
+  ],
+  "vendorCategories": [
+    {
+      "name": "Catering",
+      "bookByDays": 180,
+      "mustAskQuestions": [
+        "What is included in this price, and which extra charges may apply?",
+        "How do you handle changes, cancellations, and the event-day schedule?",
+        "Can you confirm availability and the payment milestones in writing?"
+      ],
+      "redFlags": [
+        "Unitemized quote or unclear cancellation terms",
+        "Pressure to pay the full amount before a written agreement"
+      ],
+      "shortlist": [
+        {
+          "id": "vendor-1-1",
+          "name": "Demo-Only Fictional Catering 01",
+          "tier": "budget",
+          "priceMin": 2145,
+          "priceMax": 2896,
+          "rating": 4.1,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-1-2",
+          "name": "Demo-Only Fictional Catering 02",
+          "tier": "budget",
+          "priceMin": 2145,
+          "priceMax": 2896,
+          "rating": 4.2,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-1-3",
+          "name": "Demo-Only Fictional Catering 03",
+          "tier": "budget",
+          "priceMin": 2145,
+          "priceMax": 2896,
+          "rating": 4.3,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-1-4",
+          "name": "Demo-Only Fictional Catering 04",
+          "tier": "mid",
+          "priceMin": 3300,
+          "priceMax": 4455,
+          "rating": 4.4,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-1-5",
+          "name": "Demo-Only Fictional Catering 05",
+          "tier": "mid",
+          "priceMin": 3300,
+          "priceMax": 4455,
+          "rating": 4.5,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-1-6",
+          "name": "Demo-Only Fictional Catering 06",
+          "tier": "mid",
+          "priceMin": 3300,
+          "priceMax": 4455,
+          "rating": 4.6,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-1-7",
+          "name": "Demo-Only Fictional Catering 07",
+          "tier": "premium",
+          "priceMin": 5445,
+          "priceMax": 7351,
+          "rating": 4.7,
+          "tags": [
+            "fictional demo",
+            "premium",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-1-8",
+          "name": "Demo-Only Fictional Catering 08",
+          "tier": "premium",
+          "priceMin": 5445,
+          "priceMax": 7351,
+          "rating": 4.8,
+          "tags": [
+            "fictional demo",
+            "premium",
+            "flexible package"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Venue",
+      "bookByDays": 165,
+      "mustAskQuestions": [
+        "What is included in this price, and which extra charges may apply?",
+        "How do you handle changes, cancellations, and the event-day schedule?",
+        "Can you confirm availability and the payment milestones in writing?"
+      ],
+      "redFlags": [
+        "Unitemized quote or unclear cancellation terms",
+        "Pressure to pay the full amount before a written agreement"
+      ],
+      "shortlist": [
+        {
+          "id": "vendor-2-1",
+          "name": "Demo-Only Fictional Venue 01",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.1,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-2-2",
+          "name": "Demo-Only Fictional Venue 02",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.2,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-2-3",
+          "name": "Demo-Only Fictional Venue 03",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.3,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-2-4",
+          "name": "Demo-Only Fictional Venue 04",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.4,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-2-5",
+          "name": "Demo-Only Fictional Venue 05",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.5,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-2-6",
+          "name": "Demo-Only Fictional Venue 06",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.6,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-2-7",
+          "name": "Demo-Only Fictional Venue 07",
+          "tier": "premium",
+          "priceMin": 4125,
+          "priceMax": 5569,
+          "rating": 4.7,
+          "tags": [
+            "fictional demo",
+            "premium",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-2-8",
+          "name": "Demo-Only Fictional Venue 08",
+          "tier": "premium",
+          "priceMin": 4125,
+          "priceMax": 5569,
+          "rating": 4.8,
+          "tags": [
+            "fictional demo",
+            "premium",
+            "flexible package"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Decor",
+      "bookByDays": 150,
+      "mustAskQuestions": [
+        "What is included in this price, and which extra charges may apply?",
+        "How do you handle changes, cancellations, and the event-day schedule?",
+        "Can you confirm availability and the payment milestones in writing?"
+      ],
+      "redFlags": [
+        "Unitemized quote or unclear cancellation terms",
+        "Pressure to pay the full amount before a written agreement"
+      ],
+      "shortlist": [
+        {
+          "id": "vendor-3-1",
+          "name": "Demo-Only Fictional Decor 01",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.1,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-3-2",
+          "name": "Demo-Only Fictional Decor 02",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.2,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-3-3",
+          "name": "Demo-Only Fictional Decor 03",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.3,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-3-4",
+          "name": "Demo-Only Fictional Decor 04",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.4,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-3-5",
+          "name": "Demo-Only Fictional Decor 05",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.5,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-3-6",
+          "name": "Demo-Only Fictional Decor 06",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.6,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-3-7",
+          "name": "Demo-Only Fictional Decor 07",
+          "tier": "premium",
+          "priceMin": 4125,
+          "priceMax": 5569,
+          "rating": 4.7,
+          "tags": [
+            "fictional demo",
+            "premium",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-3-8",
+          "name": "Demo-Only Fictional Decor 08",
+          "tier": "premium",
+          "priceMin": 4125,
+          "priceMax": 5569,
+          "rating": 4.8,
+          "tags": [
+            "fictional demo",
+            "premium",
+            "flexible package"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Photography",
+      "bookByDays": 135,
+      "mustAskQuestions": [
+        "What is included in this price, and which extra charges may apply?",
+        "How do you handle changes, cancellations, and the event-day schedule?",
+        "Can you confirm availability and the payment milestones in writing?"
+      ],
+      "redFlags": [
+        "Unitemized quote or unclear cancellation terms",
+        "Pressure to pay the full amount before a written agreement"
+      ],
+      "shortlist": [
+        {
+          "id": "vendor-4-1",
+          "name": "Demo-Only Fictional Photography 01",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.1,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-4-2",
+          "name": "Demo-Only Fictional Photography 02",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.2,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-4-3",
+          "name": "Demo-Only Fictional Photography 03",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.3,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-4-4",
+          "name": "Demo-Only Fictional Photography 04",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.4,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-4-5",
+          "name": "Demo-Only Fictional Photography 05",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.5,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-4-6",
+          "name": "Demo-Only Fictional Photography 06",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.6,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-4-7",
+          "name": "Demo-Only Fictional Photography 07",
+          "tier": "premium",
+          "priceMin": 4125,
+          "priceMax": 5569,
+          "rating": 4.7,
+          "tags": [
+            "fictional demo",
+            "premium",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-4-8",
+          "name": "Demo-Only Fictional Photography 08",
+          "tier": "premium",
+          "priceMin": 4125,
+          "priceMax": 5569,
+          "rating": 4.8,
+          "tags": [
+            "fictional demo",
+            "premium",
+            "flexible package"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Music",
+      "bookByDays": 120,
+      "mustAskQuestions": [
+        "What is included in this price, and which extra charges may apply?",
+        "How do you handle changes, cancellations, and the event-day schedule?",
+        "Can you confirm availability and the payment milestones in writing?"
+      ],
+      "redFlags": [
+        "Unitemized quote or unclear cancellation terms",
+        "Pressure to pay the full amount before a written agreement"
+      ],
+      "shortlist": [
+        {
+          "id": "vendor-5-1",
+          "name": "Demo-Only Fictional Music 01",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.1,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-5-2",
+          "name": "Demo-Only Fictional Music 02",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.2,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-5-3",
+          "name": "Demo-Only Fictional Music 03",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.3,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-5-4",
+          "name": "Demo-Only Fictional Music 04",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.4,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-5-5",
+          "name": "Demo-Only Fictional Music 05",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.5,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-5-6",
+          "name": "Demo-Only Fictional Music 06",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.6,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-5-7",
+          "name": "Demo-Only Fictional Music 07",
+          "tier": "premium",
+          "priceMin": 4125,
+          "priceMax": 5569,
+          "rating": 4.7,
+          "tags": [
+            "fictional demo",
+            "premium",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-5-8",
+          "name": "Demo-Only Fictional Music 08",
+          "tier": "premium",
+          "priceMin": 4125,
+          "priceMax": 5569,
+          "rating": 4.8,
+          "tags": [
+            "fictional demo",
+            "premium",
+            "flexible package"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Beauty",
+      "bookByDays": 105,
+      "mustAskQuestions": [
+        "What is included in this price, and which extra charges may apply?",
+        "How do you handle changes, cancellations, and the event-day schedule?",
+        "Can you confirm availability and the payment milestones in writing?"
+      ],
+      "redFlags": [
+        "Unitemized quote or unclear cancellation terms",
+        "Pressure to pay the full amount before a written agreement"
+      ],
+      "shortlist": [
+        {
+          "id": "vendor-6-1",
+          "name": "Demo-Only Fictional Beauty 01",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.1,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-6-2",
+          "name": "Demo-Only Fictional Beauty 02",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.2,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-6-3",
+          "name": "Demo-Only Fictional Beauty 03",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.3,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-6-4",
+          "name": "Demo-Only Fictional Beauty 04",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.4,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-6-5",
+          "name": "Demo-Only Fictional Beauty 05",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.5,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-6-6",
+          "name": "Demo-Only Fictional Beauty 06",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.6,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-6-7",
+          "name": "Demo-Only Fictional Beauty 07",
+          "tier": "premium",
+          "priceMin": 4125,
+          "priceMax": 5569,
+          "rating": 4.7,
+          "tags": [
+            "fictional demo",
+            "premium",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-6-8",
+          "name": "Demo-Only Fictional Beauty 08",
+          "tier": "premium",
+          "priceMin": 4125,
+          "priceMax": 5569,
+          "rating": 4.8,
+          "tags": [
+            "fictional demo",
+            "premium",
+            "flexible package"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transport",
+      "bookByDays": 90,
+      "mustAskQuestions": [
+        "What is included in this price, and which extra charges may apply?",
+        "How do you handle changes, cancellations, and the event-day schedule?",
+        "Can you confirm availability and the payment milestones in writing?"
+      ],
+      "redFlags": [
+        "Unitemized quote or unclear cancellation terms",
+        "Pressure to pay the full amount before a written agreement"
+      ],
+      "shortlist": [
+        {
+          "id": "vendor-7-1",
+          "name": "Demo-Only Fictional Transport 01",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.1,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-7-2",
+          "name": "Demo-Only Fictional Transport 02",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.2,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-7-3",
+          "name": "Demo-Only Fictional Transport 03",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.3,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-7-4",
+          "name": "Demo-Only Fictional Transport 04",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.4,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-7-5",
+          "name": "Demo-Only Fictional Transport 05",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.5,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-7-6",
+          "name": "Demo-Only Fictional Transport 06",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.6,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-7-7",
+          "name": "Demo-Only Fictional Transport 07",
+          "tier": "premium",
+          "priceMin": 4125,
+          "priceMax": 5569,
+          "rating": 4.7,
+          "tags": [
+            "fictional demo",
+            "premium",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-7-8",
+          "name": "Demo-Only Fictional Transport 08",
+          "tier": "premium",
+          "priceMin": 4125,
+          "priceMax": 5569,
+          "rating": 4.8,
+          "tags": [
+            "fictional demo",
+            "premium",
+            "flexible package"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guest support",
+      "bookByDays": 75,
+      "mustAskQuestions": [
+        "What is included in this price, and which extra charges may apply?",
+        "How do you handle changes, cancellations, and the event-day schedule?",
+        "Can you confirm availability and the payment milestones in writing?"
+      ],
+      "redFlags": [
+        "Unitemized quote or unclear cancellation terms",
+        "Pressure to pay the full amount before a written agreement"
+      ],
+      "shortlist": [
+        {
+          "id": "vendor-8-1",
+          "name": "Demo-Only Fictional Guest support 01",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.1,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-8-2",
+          "name": "Demo-Only Fictional Guest support 02",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.2,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-8-3",
+          "name": "Demo-Only Fictional Guest support 03",
+          "tier": "budget",
+          "priceMin": 1625,
+          "priceMax": 2194,
+          "rating": 4.3,
+          "tags": [
+            "fictional demo",
+            "budget",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-8-4",
+          "name": "Demo-Only Fictional Guest support 04",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.4,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-8-5",
+          "name": "Demo-Only Fictional Guest support 05",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.5,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-8-6",
+          "name": "Demo-Only Fictional Guest support 06",
+          "tier": "mid",
+          "priceMin": 2500,
+          "priceMax": 3375,
+          "rating": 4.6,
+          "tags": [
+            "fictional demo",
+            "mid",
+            "flexible package"
+          ]
+        },
+        {
+          "id": "vendor-8-7",
+          "name": "Demo-Only Fictional Guest support 07",
+          "tier": "premium",
+          "priceMin": 4125,
+          "priceMax": 5569,
+          "rating": 4.7,
+          "tags": [
+            "fictional demo",
+            "premium",
+            "itemized estimate"
+          ]
+        },
+        {
+          "id": "vendor-8-8",
+          "name": "Demo-Only Fictional Guest support 08",
+          "tier": "premium",
+          "priceMin": 4125,
+          "priceMax": 5569,
+          "rating": 4.8,
+          "tags": [
+            "fictional demo",
+            "premium",
+            "flexible package"
+          ]
+        }
+      ]
+    }
+  ],
+  "ideas": {
+    "themes": [
+      {
+        "name": "Marigold modern",
+        "palette": [
+          "#7A1F3D",
+          "#F2A900",
+          "#FFF8EE"
+        ],
+        "decor": "Layered marigolds, warm brass and clean fabric backdrops",
+        "entertainment": "Acoustic set with a lively family playlist",
+        "signatureMoment": "A shared welcome with a favorite family song"
+      },
+      {
+        "name": "Garden afterglow",
+        "palette": [
+          "#0F7C78",
+          "#C9A24B",
+          "#F6EDEA"
+        ],
+        "decor": "Leafy table details, locally sourced flowers and soft lanterns",
+        "entertainment": "Gentle live music and an open dance floor",
+        "signatureMoment": "A sunset toast with handwritten wishes"
+      },
+      {
+        "name": "Playful keepsakes",
+        "palette": [
+          "#E35D7E",
+          "#FFC53D",
+          "#FFFFFF"
+        ],
+        "decor": "Colorful paper details, tactile textures and personal photographs",
+        "entertainment": "A short, age-friendly interactive activity",
+        "signatureMoment": "A collaborative keepsake made by guests"
+      }
+    ],
+    "menu": [
+      {
+        "course": "Welcome",
+        "dishes": [
+          {
+            "name": "Seasonal fruit and light savouries",
+            "dietaryTags": [
+              "vegetarian",
+              "vegan option"
+            ]
+          }
+        ]
+      },
+      {
+        "course": "Main course",
+        "dishes": [
+          {
+            "name": "Regional seasonal thali",
+            "dietaryTags": [
+              "vegetarian",
+              "gluten options available"
+            ]
+          },
+          {
+            "name": "Mild lentil and rice dishes",
+            "dietaryTags": [
+              "vegan",
+              "gluten-free"
+            ]
+          }
+        ]
+      },
+      {
+        "course": "Dessert",
+        "dishes": [
+          {
+            "name": "Kesar and cardamom dessert",
+            "dietaryTags": [
+              "vegetarian"
+            ]
+          }
+        ]
+      }
+    ],
+    "invitations": {
+      "warm": "We would love for you to join us in Pune on 2027-04-15 as we celebrate together. Your company will make the day even more special.",
+      "formal": "You are warmly invited to join our birthday celebration in Pune on 2027-04-15. We look forward to sharing this occasion with you."
+    }
+  },
+  "assumptions": [
+    {
+      "text": "40 guests in Pune",
+      "reason": "We used the guest count and city stated in your prompt."
+    },
+    {
+      "text": "2027-04-15 is a planning date",
+      "reason": "A specific day was not provided; this date is a working placeholder to make the timeline useful."
+    },
+    {
+      "text": "Prices and vendors are illustrative",
+      "reason": "All amounts are AI estimates and all listed providers are fictional demo vendors, not quotes or real businesses."
+    }
+  ],
+  "ceremonies": [
+    {
+      "name": "Guest welcome",
+      "order": 1,
+      "durationMin": 30,
+      "itemsNeeded": [
+        "Welcome area",
+        "Event schedule"
+      ],
+      "responsibleRole": "Family host",
+      "meaning": "Families often use this moment to welcome guests and mark the occasion together. The details are personal and traditions vary by family.",
+      "completed": false
+    },
+    {
+      "name": "Birthday moment",
+      "order": 2,
+      "durationMin": 45,
+      "itemsNeeded": [
+        "Chosen ceremony items",
+        "Seating"
+      ],
+      "responsibleRole": "Family coordinator",
+      "meaning": "Families often use this moment to welcome guests and mark the occasion together. The details are personal and traditions vary by family.",
+      "completed": false
+    },
+    {
+      "name": "Shared meal and closing",
+      "order": 3,
+      "durationMin": 60,
+      "itemsNeeded": [
+        "Meal plan",
+        "Guest transport notes"
+      ],
+      "responsibleRole": "Hospitality lead",
+      "meaning": "Families often use this moment to welcome guests and mark the occasion together. The details are personal and traditions vary by family.",
+      "completed": false
+    }
+  ],
+  "moodboard": [
+    {
+      "id": "entrance",
+      "caption": "Entrance",
+      "prompt": "Entrance mood-board concept using #7A1F3D, #F2A900, #FFF8EE colors, warm natural golden-hour light, editorial 35mm event photography."
+    },
+    {
+      "id": "stage",
+      "caption": "Stage",
+      "prompt": "Stage mood-board concept using #7A1F3D, #F2A900, #FFF8EE colors, warm natural golden-hour light, editorial 35mm event photography."
+    },
+    {
+      "id": "tables",
+      "caption": "Tables",
+      "prompt": "Tables mood-board concept using #7A1F3D, #F2A900, #FFF8EE colors, warm natural golden-hour light, editorial 35mm event photography."
+    },
+    {
+      "id": "lighting",
+      "caption": "Lighting",
+      "prompt": "Lighting mood-board concept using #7A1F3D, #F2A900, #FFF8EE colors, warm natural golden-hour light, editorial 35mm event photography."
+    },
+    {
+      "id": "florals",
+      "caption": "Florals",
+      "prompt": "Florals mood-board concept using #7A1F3D, #F2A900, #FFF8EE colors, warm natural golden-hour light, editorial 35mm event photography."
+    },
+    {
+      "id": "signature-moment",
+      "caption": "Signature moment",
+      "prompt": "Signature moment mood-board concept using #7A1F3D, #F2A900, #FFF8EE colors, warm natural golden-hour light, editorial 35mm event photography."
+    }
+  ]
+}

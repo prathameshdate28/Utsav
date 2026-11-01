@@ -1,4 +1,4 @@
-import { PagePlaceholder } from "@/components/page-placeholder";
+import { BudgetPlanner } from "./planner";
 
 export const metadata = {
   title: "Budget & What-If — Utsav",
@@ -7,12 +7,6 @@ export const metadata = {
 
 export default function BudgetPage() {
   return (
-    <PagePlaceholder
-      badge="Deterministic Maths Engine"
-      title="Budget & What-If Planner"
-      description="Interactive category breakdowns (Catering, Mandap/Decor, Venue, Attire) with live what-if sliders. All calculations run strictly in pure TypeScript functions."
-      actionHref="/timeline"
-      actionLabel="View Event Timeline"
-    />
+    <BudgetPlanner />
   );
 }

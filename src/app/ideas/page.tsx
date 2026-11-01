@@ -1,4 +1,4 @@
-import { PagePlaceholder } from "@/components/page-placeholder";
+import { IdeasStudio } from "./studio";
 
 export const metadata = {
   title: "AI Ideas & Themes — Utsav",
@@ -6,13 +6,5 @@ export const metadata = {
 };
 
 export default function IdeasPage() {
-  return (
-    <PagePlaceholder
-      badge="Curated AI Sparks"
-      title="Themes & Celebration Ideas"
-      description="Brainstorm eco-friendly decor, nostalgic guest entry concepts, and regional food stalls. Every AI suggestion is schema-validated with cached fallbacks."
-      actionHref="/moodboard"
-      actionLabel="View Moodboard"
-    />
-  );
+  return <IdeasStudio />;
 }

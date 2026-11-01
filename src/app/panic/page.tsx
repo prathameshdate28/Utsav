@@ -1,4 +1,4 @@
-import { PagePlaceholder } from "@/components/page-placeholder";
+import { PanicAssistant } from "./assistant";
 
 export const metadata = {
   title: "Panic Button — Utsav",
@@ -6,13 +6,5 @@ export const metadata = {
 };
 
 export default function PanicPage() {
-  return (
-    <PagePlaceholder
-      badge="Emergency Co-Pilot"
-      title="The Panic Button"
-      description="Instant crisis management: heavy sudden rain contingencies, generator failures, delay announcements, and emergency vendor substitutes."
-      actionHref="/dashboard"
-      actionLabel="Return to Safety Cockpit"
-    />
-  );
+  return <PanicAssistant />;
 }

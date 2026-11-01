@@ -1,4 +1,4 @@
-import { PagePlaceholder } from "@/components/page-placeholder";
+import { DashboardOverview } from "./overview";
 
 export const metadata = {
   title: "Dashboard — Utsav",
@@ -7,12 +7,6 @@ export const metadata = {
 
 export default function DashboardPage() {
   return (
-    <PagePlaceholder
-      badge="Event Command Center"
-      title="Celebration Overview"
-      description="Track guest RSVP velocity, readiness health scores, budget burn rates, and key milestone alerts all in one unified cockpit."
-      actionHref="/budget"
-      actionLabel="Inspect Budget"
-    />
+    <DashboardOverview />
   );
 }

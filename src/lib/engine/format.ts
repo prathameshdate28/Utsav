@@ -53,6 +53,14 @@ export function formatCompactINR(amount: number): string {
   } else {
     formatted = abs.toString();
   }
-
   return isNegative ? `-₹${formatted}` : `₹${formatted}`;
+}
+
+export function formatLakh(amount: number): string {
+  if (!Number.isFinite(amount)) return "₹0 lakh";
+  const lakhs = Math.abs(amount) / 100000;
+  const formatted = Number.isInteger(lakhs)
+    ? String(lakhs)
+    : lakhs.toFixed(2).replace(/0+$/, "").replace(/\.$/, "");
+  return `${amount < 0 ? "-" : ""}₹${formatted} lakh`;
 }

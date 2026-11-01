@@ -1,4 +1,4 @@
-import { PagePlaceholder } from "@/components/page-placeholder";
+import { MoodboardGallery } from "./gallery";
 
 export const metadata = {
   title: "Moodboard — Utsav",
@@ -6,13 +6,5 @@ export const metadata = {
 };
 
 export default function MoodboardPage() {
-  return (
-    <PagePlaceholder
-      badge="Visual Inspiration"
-      title="Aesthetic Moodboard"
-      description="Assemble your event visual language: marigold yellows, royal emeralds, terracotta drapes, and ambient brass lanterns."
-      actionHref="/panic"
-      actionLabel="Review Emergency Playbook"
-    />
-  );
+  return <MoodboardGallery />;
 }

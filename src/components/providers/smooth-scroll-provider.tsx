@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import Lenis from "lenis";
+import { BackToTop } from "@/components/back-to-top";
 
 interface SmoothScrollProviderProps {
   children: React.ReactNode;
@@ -16,31 +17,29 @@ export function SmoothScrollProvider({ children }: SmoothScrollProviderProps) {
   const lenisRef = useRef<Lenis | null>(null);
 
   useEffect(() => {
-    // Check if the user prefers reduced motion
     const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+    let cleanupLenis: (() => void) | undefined;
 
     const setupLenis = () => {
-      // If reduced motion is requested, do not initialize smooth scrolling
+      cleanupLenis?.();
+      cleanupLenis = undefined;
+
       if (mediaQuery.matches) {
-        if (lenisRef.current) {
-          lenisRef.current.destroy();
-          lenisRef.current = null;
-        }
         return;
       }
 
-      // Initialize Lenis for luxurious celebratory inertia scrolling
       const lenis = new Lenis({
-        duration: 1.1,
-        easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+        duration: 0.8,
+        easing: (t) => 1 - Math.pow(1 - t, 3),
         orientation: "vertical",
         gestureOrientation: "vertical",
         smoothWheel: true,
+        anchors: true,
       });
 
       lenisRef.current = lenis;
 
-      let animationFrameId: number;
+      let animationFrameId = 0;
       const raf = (time: number) => {
         lenis.raf(time);
         animationFrameId = requestAnimationFrame(raf);
@@ -48,28 +47,40 @@ export function SmoothScrollProvider({ children }: SmoothScrollProviderProps) {
 
       animationFrameId = requestAnimationFrame(raf);
 
-      return () => {
+      cleanupLenis = () => {
         cancelAnimationFrame(animationFrameId);
         lenis.destroy();
-        lenisRef.current = null;
+        if (lenisRef.current === lenis) lenisRef.current = null;
       };
     };
 
-    const cleanup = setupLenis();
-
-    // Listen for changes in OS reduced-motion preference
-    const handlePreferenceChange = () => {
-      if (cleanup) cleanup();
-      setupLenis();
-    };
-
+    setupLenis();
+    const handlePreferenceChange = () => setupLenis();
     mediaQuery.addEventListener("change", handlePreferenceChange);
 
     return () => {
       mediaQuery.removeEventListener("change", handlePreferenceChange);
-      if (cleanup) cleanup();
+      cleanupLenis?.();
     };
   }, []);
 
-  return <>{children}</>;
+  function scrollToTop() {
+    const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (prefersReducedMotion) {
+      window.scrollTo(0, 0);
+      return;
+    }
+    if (lenisRef.current) {
+      lenisRef.current.scrollTo(0, { duration: 1.2 });
+      return;
+    }
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  return (
+    <>
+      {children}
+      <BackToTop onScrollToTop={scrollToTop} />
+    </>
+  );
 }

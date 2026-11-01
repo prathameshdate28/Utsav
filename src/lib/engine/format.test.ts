@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { formatINR, formatCompactINR } from "./format";
+import { formatINR, formatCompactINR, formatLakh } from "./format";
 
 describe("formatINR pure engine function", () => {
   it("formats zero correctly", () => {
@@ -43,5 +43,12 @@ describe("formatCompactINR pure engine function", () => {
 
   it("formats crores", () => {
     expect(formatCompactINR(20000000)).toBe("₹2 Cr");
+  });
+});
+
+describe("formatLakh", () => {
+  it("formats whole and fractional lakhs", () => {
+    expect(formatLakh(2500000)).toBe("₹25 lakh");
+    expect(formatLakh(1250000)).toBe("₹12.5 lakh");
   });
 });
