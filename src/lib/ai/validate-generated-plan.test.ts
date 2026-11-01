@@ -28,8 +28,8 @@ describe("generated plan completeness", () => {
     candidate.ideas.menu.pop();
 
     expect(findIncompletePlanFields(candidate, plan)).toEqual([
-      "3 complete menu courses",
-      "6 complete moodboard tiles",
+      "3 valid menu courses (value: Too small: expected array to have exactly 3 items)",
+      "6 valid moodboard tiles (value: Too small: expected array to have exactly 6 items)",
     ]);
   });
 });
